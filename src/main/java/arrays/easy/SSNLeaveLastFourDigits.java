@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 // Input: String SSN = "1231234040";
 // Output: ******4040 or ***-***-4040

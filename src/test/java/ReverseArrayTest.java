@@ -1,4 +1,4 @@
-import arrays.ReverseArray;
+import arrays.easy.ReverseArray;
 import org.junit.Assert;
 import org.junit.Test;
 

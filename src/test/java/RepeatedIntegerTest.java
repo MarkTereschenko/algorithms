@@ -1,4 +1,4 @@
-import arrays.RepeatedInteger;
+import arrays.easy.RepeatedInteger;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

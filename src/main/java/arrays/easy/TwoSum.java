@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 import java.util.*;
 import java.util.function.Predicate;
@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 public class TwoSum {
     @Override
     public String toString() {
-        return "arrays.TwoSum{}";
+        return "arrays.easy.TwoSum{}";
     }
 
     public static int[] twoSum(int[] nums, int target) {

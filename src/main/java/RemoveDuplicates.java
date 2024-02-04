@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class RemoveDuplicates {
-
     public List<Integer> removeDuplicates(List<Integer> inputNumbers) {
         Collections.sort(inputNumbers);
         for (int i = 0; i < inputNumbers.size(); i++) {
@@ -37,7 +36,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
         int[] solution = solution(new int[]{3, 1, 2, 3, 6});
-//        int sum = Stream.of("1235".split("")).mapToInt(Integer::parseInt).sum();
+        int sum = Stream.of("1235".split("")).mapToInt(Integer::parseInt).sum();
         Arrays.stream(solution).forEach(System.out::println);
     }
 

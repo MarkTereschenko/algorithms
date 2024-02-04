@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class IsSubs {
     public static boolean isSubsequence(String s, String t) {
